@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\CS_syntex\LMS\LMS\bin\Debug\net6.0\LMS.exe
+C:\Users\Admin\Desktop\CS_syntex\LMS\LMS\bin\Debug\net6.0\LMS.deps.json
+C:\Users\Admin\Desktop\CS_syntex\LMS\LMS\bin\Debug\net6.0\LMS.runtimeconfig.json
+C:\Users\Admin\Desktop\CS_syntex\LMS\LMS\bin\Debug\net6.0\LMS.dll
+C:\Users\Admin\Desktop\CS_syntex\LMS\LMS\bin\Debug\net6.0\LMS.pdb
+C:\Users\Admin\Desktop\CS_syntex\LMS\LMS\obj\Debug\net6.0\LMS.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\CS_syntex\LMS\LMS\obj\Debug\net6.0\LMS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\CS_syntex\LMS\LMS\obj\Debug\net6.0\LMS.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\CS_syntex\LMS\LMS\obj\Debug\net6.0\LMS.AssemblyInfo.cs
+C:\Users\Admin\Desktop\CS_syntex\LMS\LMS\obj\Debug\net6.0\LMS.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\CS_syntex\LMS\LMS\obj\Debug\net6.0\LMS.dll
+C:\Users\Admin\Desktop\CS_syntex\LMS\LMS\obj\Debug\net6.0\refint\LMS.dll
+C:\Users\Admin\Desktop\CS_syntex\LMS\LMS\obj\Debug\net6.0\LMS.pdb
+C:\Users\Admin\Desktop\CS_syntex\LMS\LMS\obj\Debug\net6.0\LMS.genruntimeconfig.cache
+C:\Users\Admin\Desktop\CS_syntex\LMS\LMS\obj\Debug\net6.0\ref\LMS.dll
