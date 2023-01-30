@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--mainBlack);
+}
+
+:root {
+    --primaryColor: #C8242F;
+    --mainWhite: #FFFFFF;
+    --mainLightGrey: #FAFAFA;
+    --mainGrey: #ADADAD;
+    --mainBlack: #3E3E3E;
+    --mainShadow: #0000000A;
+}
+body {
+    color: var(--mainBlack);
+    background: var(--mainLightGrey);
+    font-family: 'Roboto';
+}
+
+.redColor {
+    color: var(--primaryColor)
+}
+
+.hero {
+    margin: 11% 20%;
+    border-radius: 50%;
+    box-shadow: 0px 4px 31px var(--mainShadow);
+    border: 20px solid var(--mainWhite);
+    width: 500px;
+    height: 500px;
+}
+.title {
+    font-size: 40px;
+    font-weight: light;
+    width: 500px;
+}
+.logo {
+    width: 272px;
+    height: 58px;
+    margin-top: 15%;
+    margin-bottom: 3%;
+}
+.heading{
+    font-size:25px;
+    margin: 15px 15px 15px 0px;
+}
+.form{
+    width: 430px;
+}
+.form-control{
+    margin: 15px 15px 15px 0px;
+    border-radius: 5px;
+}
+.button{
+    margin: 5px;
+    height: 45px;
+    width: 135px;
+    border-radius: 23px;
+}
+.forgotPasswords{
+    margin-left: 20%;
+    color: var(--mainGrey);
+    font-size: 15px;
+}
+.question{
+    margin: 10px 0;
+    color: var(--mainGrey);
+    font-size: 15px;
+}
