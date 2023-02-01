@@ -1,10 +1,3 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    color: var(--mainBlack);
-}
-
 :root {
     --primaryColor: #C8242F;
     --mainWhite: #FFFFFF;
@@ -18,18 +11,31 @@ body {
     background: var(--mainLightGrey);
     font-family: 'Roboto';
 }
+.columnJustified{
+    display: flex;
+    justify-content: center;
+}
+.columnleftJustified{
+    display: flex;
+    justify-content: left;
+}
+.vertical-center {
+  min-height: 100%;  
+  min-height: 100vh; /* These two lines are counted as one, fall back       */
 
+  display: flex;
+  align-items: center;
+}
 .redColor {
     color: var(--primaryColor)
 }
 
 .hero {
-    margin: 10% 20%;
     border-radius: 50%;
     box-shadow: 0px 4px 31px var(--mainShadow);
     border: 20px solid var(--mainWhite);
-    width: 540px;
-    height: 540px;
+    width: 576px;
+    height: 576px;
 }
 .title {
     font-size: 40px;
@@ -39,7 +45,6 @@ body {
 .logo {
     width: 272px;
     height: 58px;
-    margin-top: 15%;
     margin-bottom: 3%;
 }
 .heading{
@@ -70,6 +75,35 @@ body {
     font-size: 15px;
 }
 .rightAlignment{
-    margin-left: 10%;
-    margin-top: 5%;
+    margin-top: 10%;
+    margin-left: 15%;
+}
+
+@media (max-width: 720px) {
+    .hero {
+        width: 0px;
+        height: 0px;
+        border: none;
+    }
+    .rightAlignment{
+        margin-left: 5%;
+    }
+    .title {
+        font-size: 30px;
+        width: 300px;
+    }
+    .form-control {
+        width: 250px;
+    }
+    .forgotPasswords{
+        margin-left: 5%;
+    }
+    .btn{
+        width: 100px;
+    }
+    .stop-scrolling {
+        height: 100%;
+        overflow: hidden;
+    }
+    
 }
