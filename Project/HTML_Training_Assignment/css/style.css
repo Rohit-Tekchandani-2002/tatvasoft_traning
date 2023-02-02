@@ -15,6 +15,7 @@ body{
   }
   .loginpage_main{
     display: flex;
+    justify-content: center;
     /* flex-direction: row; */
     /* scroll-snap-type: none; */
   }
@@ -173,7 +174,7 @@ p  span1{
 }
 
 @media (max-width:1273px) {
-    
+
     .loginpage_div1 img{
         margin-left: 10px;
     }
@@ -182,8 +183,6 @@ p  span1{
         margin-left: 40px;
     }
 }
-
-
 
 @media (min-width:1090px) and (max-width:1135px) {
     .loginpage_div1 img{
@@ -273,6 +272,7 @@ p  span1{
     .loginpage_text{
         font-size: 25px;
         margin-left: 27%;
+        width: fit-content;
         /* justify-content: center; */
         /* margin-top: -10px; */
         /* text-align: center; */
@@ -320,11 +320,17 @@ p  span1{
     
 }
 
-@media (min-width:360px) and (max-width:567px){
+@media (min-width:280px) and (max-width:567px){
 
     .loginpage_main{
         display: flex;
         flex-direction: column;
+    }
+
+    .lastline{
+        display: flex;
+        /* flex-direction: column; */
+        justify-content: right;
     }
 
     .loginpage_div1 img{
@@ -341,6 +347,7 @@ p  span1{
     .loginpage_text{
         font-size: 25px;
         margin-left: 0;
+        width: fit-content;
         justify-content: center;
         
     }
@@ -360,6 +367,7 @@ p  span1{
     .loginpage_buttons{
         display: flex;
         flex-direction: column;
+        justify-content: center;
     }
 
     .loginpage_forgotpassbtn{
@@ -370,8 +378,4 @@ p  span1{
     .loginpage_loginbtn{
         margin-left: 22%;
     }
-
-
-
-
 }

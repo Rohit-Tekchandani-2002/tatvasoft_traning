@@ -30,5 +30,5 @@ closeArrow.addEventListener("click", () => {
 })
 
 function Setimage1(
-    document.getElementById('img1').src="./assets/dashboard-default.svg";
+    document.getElementById('img1').src="./images/dashboard-default.svg";
 );
