@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="css/inner.css" />
+    <script src="./js/custom.js"></script>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Innerpage</title>
+  </head>
+  <body>
+    <!-- header  -->
+    <div class="innerpage_header">
+      <img class="header_menu" src="./images/menu-bar.svg" alt="" />
+      <a href="./index.html">
+        <img class="header_logo" src="./images/header-logo.svg" alt=""
+      /></a>
+      <img class="header_searchicon" src="./images/search-icon.svg" alt="" />
+      <input
+        placeholder="search"
+        class="header_input"
+        type="search"
+        name=""
+        id=""
+      />
+      <div class="threeicon">
+        <img class="header_bell" src="./images/notification-icon.svg" alt="" />
+        <img class="header_profilepic" src="./images/profile.png" alt="" />
+        <p class="header_username">John Due</p>
+        <img
+          class="header_downarrow"
+          src="./images/downward-arrow.svg"
+          alt=""
+        />
+      </div>
+    </div>
+    <div class="navbar_parent">
+      <nav class="navbar">
+        <div class="hide">
+          <ul>
+            <li class="dashboard">
+              <img src="./images/dashboard-default.svg" alt="" />
+              <a onmouseover="setImage()" href="./dashboard.html">
+                Dashboard
+              </a>
+            </li>
+            <li class="navbar_active_dashboard">
+              <img src="./images/graph-active.svg" alt="" /> Analysis
+            </li>
+            <li><img src="./images/inbox-default.svg" alt="" /> Inbox</li>
+            <li><img src="./images/clock-default.svg" alt="" /> History</li>
+            <li><img src="./images/user-default.svg" alt="" /> Users</li>
+            <li>
+              <img src="./images/maintenance-default.svg" alt="" /> Maintenance
+            </li>
+            <li><img src="./images/setting-default.svg" alt="" /> Setting</li>
+          </ul>
+        </div>
+      </nav>
+
+      <!-- right form  -->
+
+      <div class="container">
+        <h4>Analysis</h4>
+        <div class="onecolumn">
+          <h6>One Column</h6>
+          <input id="onecolumnname" type="text" placeholder="Name" />
+          <select name="dropdown" id="onecolumndropdown">
+            <option>Dropdown</option>
+            <option>option1</option>
+            <option>option2</option>
+            <option>option3</option>
+          </select>
+          <textarea
+            name="textarea"
+            id="textarea"
+            cols="30"
+            rows="10"
+            placeholder="Multiple line"
+          ></textarea>
+          <div class="twocolumn">
+            <h6>Two Column</h6>
+            <div class="twocolumndiv1">
+              <input id="twocolumnname" type="text" placeholder="Name" />
+              <input
+                id="twocolumnusername"
+                type="text"
+                placeholder="Username"
+              />
+            </div>
+            <div class="twocolumndiv2">
+              <input
+                type="password"
+                id="twocolumnpassword"
+                placeholder="Password"
+              />
+              <select name="dropdown" id="twocolumndropdown">
+                <option>Dropdown</option>
+                <option>option1</option>
+                <option>option2</option>
+                <option>option3</option>
+              </select>
+            </div>
+
+            <div class="threecolumn">
+              <h6>Three Column</h6>
+              <input
+                type="text"
+                id="threecolumnfocus"
+                type="text"
+                placeholder="focus"
+              />
+              <input
+                type="password"
+                id="threecolumnpassword"
+                placeholder="Password"
+              />
+              <input
+                type="text"
+                name=""
+                id="threecolumndisabled"
+                placeholder="disabled"
+              />
+            </div>
+
+            <div class="fourcolumn">
+              <h6>Four Column</h6>
+              <input
+                id="fourcolumndesignation"
+                type="text"
+                placeholder="Designation"
+              />
+              <input id="fourcolumnname" type="text" placeholder="Name" />
+              <input
+                type="text"
+                id="fourcolumnuserame"
+                placeholder="username"
+              />
+              <select name="" id="fourcolumndropdown">
+                <option>option 1</option>
+                <option>option 2</option>
+                <option>option 3</option>
+              </select>
+              <p class="enteravaliddata">enter a valid data</p>
+            </div>
+
+            <div class="otherelement">
+              <h6>Other Design Element</h6>
+              <h3>File Upload</h3>
+              <input id="uploadbtn" type="button" value="Upload" />
+              <h3 class="radiobtn">Radio Button</h3>
+              <input type="radio" id="radiobtn1" />
+              <span class="radiobtnoption">Option 1</span>
+              <input type="radio" id="radiobtn2" />
+              <span class="radiobtnoption">Option 2</span>
+              <h3 class="checkbox">Check box</h3>
+              <input type="checkbox" id="checkbox1" />
+              <span class="checkboxoption">Option 1</span>
+              <input type="checkbox" id="checkbox2" />
+              <span class="checkboxoption">Option 2</span>
+              <h3 class="snakbar">Snakbar</h3>
+              <div class="snakbardiv1">
+                <div class="errormsg">
+                  <img src="./images/error-icon.svg" alt="" />
+                  <span>This is an eroor Message</span>
+                </div>
+                <div class="infomsg">
+                  <img src="./images/info-icon.svg" alt="" />
+                  <span>This is Information Message</span>
+                </div>
+              </div>
+              <div class="snakbardiv2">
+                <div class="warningmsg">
+                  <img src="./images/warning-icon.svg" alt="" />
+                  <span>This is a Warning Message</span>
+                </div>
+                <div class="successmsg">
+                  <img src="./images/success-icon.svg" alt="" />
+                  <span>This is Success Message</span>
+                </div>
+              </div>
+              <h3 class="calltoaction">Call to Action</h3>
+              <div class="btngroup">
+                <button class="primary">Primary</button>
+                <button class="secondary">Secondary</button>
+              </div>
+              <h3 class="tabs">Tabs</h3>
+              <div id="tab-name">
+                <p id="p-tab1">Tab 1</p>
+                <p class="p23">Tab 2</p>
+                <p class="p23">Tab 3</p>
+              </div>
+              <div id="horizontal-line">
+                <div id="red-line"></div>
+                <div id="gray-line"></div>
+              </div>
+              <div class="lastpara">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Accusantium modi labore eligendi autem iure quibusdam magnam!
+                  Perspiciatis quia, ipsam incidunt ab eaque voluptatem
+                  laudantium, repudiandae harum doloribus accusantium ad
+                  necessitatibus beatae in magnam voluptates. Voluptate, placeat
+                  quam! Qui cupiditate non, voluptatibus tempora et, ullam porro
+                  nihil explicabo assumenda debitis suscipit quia, atque harum
+                  praesentium doloremque? Eaque sequi recusandae corrupti ipsa.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

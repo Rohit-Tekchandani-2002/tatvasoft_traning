@@ -1,56 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <title>Login</title>
+  </head>
+  <body>
+    <div class="loginpage_main">
+      <div class="loginpage_div1">
+        <img src="./images/hero-image.png" alt="" />
+      </div>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>company</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- Style Sheet -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
-</head>
-
-<body>
-    <div class="jumbotron vertical-center">
-    <div class="container-fluid stop-scrolling">
-        <div class="row">
-            <!-- first column  -->
-            <div class="col-xl-2"></div>
-            <div class="col-xl-4 columnJustified">
-                <img class="hero" src="images/hero-image.png" alt="remoat image">
-            </div>
-            <!-- second column  -->
-            <div class="col columnleftJustified">
-                <div class="rightAlignment">
-                    <img class="logo" src="images/logo.svg" alt="logo">
-                    <h2 class="title">
-                        We are <b class="redColor">experts</b> in business,
-                        <br>
-                        marketing, growth, & sales.
-                    </h2>
-                    <div class="heading">
-                        Login into your account
-                    </div>
-                    <div class="form">
-                        <input type="text" class="form-control" placeholder="Username">
-                        <input type="password" class="form-control" placeholder="Password">
-                    </div>
-                    <div>
-                        <button type="submit" class="btn btn-danger button">Login</button>
-                        <span class="forgotPasswords">Forgot Password?</span>
-                    </div>
-                    <div class="question">Are you a new Member? <span class="redColor">Register here</span></div>
-                </div>
-            </div>
-            <div class="col-1"></div>
+      <div class="loginpage_div2">
+        <img src="./images/logo.svg" alt="logo" />
+        <p class="loginpage_text">
+          We are <span>experts</span> in business, <br />
+          marketing, growth, & sales.
+        </p>
+        <p class="loginpage_text2">Login into your account</p>
+        <form>
+          <input
+            
+            class="loginpage_input1"
+            type="text"
+            placeholder="Username"
+            required
+          />
+          <input
+            class="loginpage_input2"
+            type="password"
+            placeholder="Password"
+            required
+          />
+        </form>
+        <div class="loginpage_buttons">
+          <input class="loginpage_loginbtn" type="button" value="Login" />
+          <a class="loginpage_forgotpassbtn">Forgot password?</a>
         </div>
+        <p class="lastline">
+          Are you a new Member? <span1> Register here</span1>
+        </p>
+      </div>
     </div>
-</div>
-</body>
-
+  </body>
 </html>
